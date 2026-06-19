@@ -42,19 +42,22 @@ go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
 terimakasih projectdiscovery izin memakai tools kalian 
 
-##🛠️ Options Lengkap
-       Flag	Deskripsi
-  -d, --domain	Domain target (wajib)
-  -o, --output	File output subdomain
-  -l, --live	File output live host
-  --passive	Mode pasif (OSINT only)
-   -t, --threads	Jumlah threads (default: 50)
-   --no-title	Skip title detection
-  --no-tech	Skip tech detection
-  --no-status	Skip status code
-  --follow	Follow redirects
-  --export	Export ke file
-  -v, --verbose	Verbose mode
+## 🛠️ Options Lengkap
+
+| Flag | Deskripsi |
+|------|-----------|
+| `-d, --domain` | Domain target (wajib) |
+| `-o, --output` | File output subdomain |
+| `-l, --live` | File output live host |
+| `--passive` | Mode pasif (OSINT only) |
+| `-t, --threads` | Jumlah threads (default: 50) |
+| `--no-title` | Skip title detection |
+| `--no-tech` | Skip tech detection |
+| `--no-status` | Skip status code |
+| `--follow` | Follow redirects |
+| `--export` | Export ke file |
+| `-v, --verbose` | Verbose mode |
+
 
 
 
