@@ -22,16 +22,16 @@ git clone https://github.com/daffazxxs/ReconX.git
 cd ReconX
 
 
-##Cara Pakai 
+## Cara Pakai 
 python3 reconx.py -d target.com
 
-##Scan dengan export 
+## Scan dengan export 
 python3 reconx.py -d target.com --export -t 100
 
-##MODE pasif(OSINT ONLY)
+## MODE pasif(OSINT ONLY)
 python3 reconx.py -d target.com --passive
 
-##Scan dengan follow redirects
+## Scan dengan follow redirects
 python3 reconx.py -d target.com --follow
 
 # Install Subfinder
