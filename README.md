@@ -34,31 +34,6 @@ python3 reconx.py -d target.com --passive
 ##Scan dengan follow redirects
 python3 reconx.py -d target.com --follow
 
-
-
-##OUTPUT CONTOH
-╔══════════════════════════════════════════════════════════════╗
-║         DARK NIGHT - SUBFINDER + HTTPX TOOLKIT               ║
-╚══════════════════════════════════════════════════════════════╝
-
-[*] Target Domain: target.com
-[*] Threads: 100
-[✓] Subfinder selesai: 45 subdomain ditemukan (12.34s)
-[✓] Httpx selesai: 12 host live (8.21s)
-
-╔══════════════════════════════════════════════════════════════╗
-║                         SUMMARY                               ║
-╚══════════════════════════════════════════════════════════════╝
-[+] Total Subdomain: 45
-[+] Live Hosts: 12
-[+] Total Time: 20.55s
-
-[+] Live Hosts:
-No   URL                                      Status   Title
------------------------------------------------------------------
-1    https://www.target.com                   200      Target Domain
-2    https://api.target.com                   200      API Gateway
-
 # Install Subfinder
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 
@@ -67,19 +42,19 @@ go install -v github.com/projectdiscovery/httpx/cmd/httpx@latest
 
 terimakasih projectdiscovery izin memakai tools kalian 
 
-🛠️ Options Lengkap
-Flag	Deskripsi
--d, --domain	Domain target (wajib)
--o, --output	File output subdomain
--l, --live	File output live host
---passive	Mode pasif (OSINT only)
--t, --threads	Jumlah threads (default: 50)
---no-title	Skip title detection
---no-tech	Skip tech detection
---no-status	Skip status code
---follow	Follow redirects
---export	Export ke file
--v, --verbose	Verbose mode
+##🛠️ Options Lengkap
+       Flag	Deskripsi
+  -d, --domain	Domain target (wajib)
+  -o, --output	File output subdomain
+  -l, --live	File output live host
+  --passive	Mode pasif (OSINT only)
+   -t, --threads	Jumlah threads (default: 50)
+   --no-title	Skip title detection
+  --no-tech	Skip tech detection
+  --no-status	Skip status code
+  --follow	Follow redirects
+  --export	Export ke file
+  -v, --verbose	Verbose mode
 
 
 
